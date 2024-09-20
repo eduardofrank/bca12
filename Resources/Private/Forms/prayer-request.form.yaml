@@ -9,16 +9,16 @@ finishers:
   -
     options:
       subject: 'A prayer request from a website visitor.'
-      senderAddress: '{email-1}'
+      senderAddress: 'pastorjohn@spirit.org'
       senderName: '{text-1}  {text-2}'
       format: html
       attachUploads: true
       translation:
         language: default
       recipients:
-        jfgodfrey@gmail.com: 'John F. Godfrey, Pastor'
+        pastorjohn@spirit.org: 'John F. Godfrey, Pastor'
       replyToRecipients:
-        '{email-1}': ''
+        '{email-1}': '{text-1}  {text-2}'
     identifier: EmailToReceiver
   -
     options:
